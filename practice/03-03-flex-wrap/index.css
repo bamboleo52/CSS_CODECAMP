@@ -8,9 +8,18 @@
     background: #eeeeee;
     border: 2px solid red;
     display: flex;
+    flex-wrap: wrap;
+    align-contents: space-evenly;
 }
 .container div {
     background: blue;
     margin: 5px;
-    width: 300px; 
+    width: 200px;
+    color: white; 
+}
+.box4 {
+    order: 3;
+}
+.box5 {
+    order: 1;
 }
